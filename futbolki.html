@@ -1,0 +1,377 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="contact form example">
+        <title>Магазин футболок</title>
+        <link rel="stylesheet" tepe="text/CSS" href="stail2.css">
+        <script src="script.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <script src="wowmin.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+    </head>
+
+    <body style="background-color: #3d3c3c;">
+
+        <header style="background-color:#1d163d;" >
+            <br>
+            <section style="background-color:#48379c;border-radius: 45px;padding:15px;">
+              <div class="centered animate__animated animate__bounceInDown"  >
+               
+                
+                <div class="cont_a" style="margin-top: 5px;">
+                    <font size="5" color="#d2d1d2"> ФУТБОЛКИ С ПРИНТАМИ</font><br>
+                    <font size="7" color="mediumturquoise">499</font>
+                    <sup><font color="mediumturquoise" size="5">руб.</font></sup>
+                </div>
+
+                <div class="cont_b">
+                    <font color="white"> ПОЧЕМУ ТАК ДЁШИВО?</font><br>
+                </div>
+                
+                <div class="img_1">
+                    <div class="img_a" >
+                        <img src="ime/Mag/sale.png" width="90px" height="70px"><br>
+                        <font size="2"color="#d2d1d2" >Низкие цены</font>
+                    </div> 
+                    
+                    <div class="cont_s">
+                        <img src="ime/Mag/gruzovik.png" width="90px" height="70px"><br>
+                        <font size="2"color="#d2d1d2">Доставка по всей России</font>
+                    </div>
+
+                    <div class="img_b" >
+                        <img src="ime/Mag/hit.png"  width="90px" height="70px"><br>
+                        <font size="2"color="#d2d1d2">Только хиты</font>
+                    </div>
+                </div>
+                      <br>             
+            </div>  
+            </section>
+            <br>
+        </header>
+
+        <main>
+            <section class="mained">
+                <div ><br>
+                     <font size="6"color="#d2d1d2" >ФУТБОЛКИ</font><br>
+                    <font size="3" color="#d2d2d3" >100% хлопок</font>
+                </div>
+                <div  class="fut">
+                    <div class="left"><img src="ime/Mag/left.PNG" onclick=" rand_tshirt()"  height="60px" width="60px"></div>
+                    <div class="fut_a">
+                        <br>
+                        <img src="ime/Mag/photo.png" id="le" width="370px" height="420px"  style="border: 1px solid black; border-radius: 25px;"><br>
+                        <font size="4"color="#d2d1d2">футболка</font><br>
+                        <font size="5" color="mediumturquoise">499P</font>
+                        <br>
+                        <br>
+                        <button class="but_2"  onclick="alert( 'Добавили в заказ!' )">
+                           <font>Добавить в корзину</font>
+                        </button>
+                    </div>
+
+                    <div class="fut_b">
+                        <br>
+                        <img src="ime/Mag/photo_1.png" id="ri" width="370px" height="420px"  style="border: 1px solid black; border-radius: 25px;" ><br>
+                        <font size="4"color="#d2d1d2">футболка</font><br>
+                        <font size="5" color="mediumturquoise">499P</font>
+                        <br>
+                        <br>
+                        <button class="but_2"  onclick="alert( 'Добавили в заказ!' )" >
+                            <font>Добавить в корзину</font>
+                        </button>
+                    </div>  
+                    <div class="right"><img src="ime/Mag/right.PNG"  onclick=" rand_tshirt()" height="60px" width="60px"></div> 
+                     
+                </div>    
+            </section>
+            <br>
+            <section>
+
+                <div class="zag1" style="border-radius: 18px;">   
+                    <h4><font>Как выбрать размер?</font></h4>  
+                </div>
+
+                <div  class="mained2" >
+                    <div class="fut_3">
+                        <img src="ime/Mag/photo2.png" width="330px" height="420px" style="border: 1px solid black; border-radius: 25px;"> 
+                        <b><font size="4"color="#d2d1d2">футболка размер:42-44 </font><br></b> 
+                        <b><font size="5" color="mediumturquoise">499P</font></b> 
+                        <br>
+                        <br>
+                        <button class="but_2" id="button1"  onclick="fut_hud(0)">
+                            <font>Добавить в корзину</font>
+                        </button>
+                    </div>
+
+                    <div class="fut_4" >
+                        <img src="ime/Mag/photo2.png" width="330px" height="420px" style="border: 1px solid black; border-radius: 25px;"> 
+                        <b><font size="4"color="#d2d1d2">футболка размер:44-46</font><br></b> 
+                        <b><font size="5" color="mediumturquoise">499P</font></b> 
+                        <br>
+                        <br>
+                        <button class="but_2" id="button3"   onclick="fut_hud(1)">
+                            <font>Добавить в корзину</font>
+                        </button>
+                    </div>
+
+                    <div class="fut_5"> 
+                        <img src="ime/Mag/photo2.png" width="330px" height="420px" style="border: 1px solid black; border-radius: 25px;"> 
+
+                        <b><font size="4"color="#d2d1d2">футболка размер:46-48</font><br></b> 
+                        <b> <font size="5" color="mediumturquoise">499P</font></b> 
+                        <br>
+                        <br>
+                        <button class="but_2" id="button4"  onclick="fut_hud(2)">
+                            <font>Добавить в корзину</font>
+                        </button>
+                    </div>
+
+                    
+                </div>
+
+                <div  class="mained2" >
+                    <div class="fut_3">
+                        <img src="ime/Mag/photo2.png" width="330px" height="420px" style="border: 1px solid black; border-radius: 25px;"> 
+                        <b><font size="4"color="#d2d1d2">футболка размер:48-50</font><br></b> 
+                        <b><font size="5" color="mediumturquoise">499P</font></b> 
+                        <br>
+                        <br>
+                        <button class="but_2"  id="button5" onclick="fut_hud(3)">
+                            <font>Добавить в корзину</font>
+                        </button>
+                    </div>
+
+                    <div class="fut_4" >
+                        <img src="ime/Mag/photo2.png" width="330px" height="420px" style="border: 1px solid black; border-radius: 25px;"> 
+                        <b><font size="4"color="#d2d1d2">футболка размер:50-52</font><br></b> 
+                        <b><font size="5" color="mediumturquoise">499P </font></b> 
+                        <br>
+                        <br>
+                        <button class="but_2" id="button6"   onclick="fut_hud(4)">
+                            <font>Добавить в корзину</font>
+                        </button>
+                    </div>
+
+                    <div class="fut_5"> 
+                        <img src="ime/Mag/photo2.png" width="330px" height="420px" style="border:1px solid black; border-radius: 25px;"> 
+
+                        <b><font size="4"color="#d2d1d2">футболка размер:52-58</font><br></b> 
+                        <b> <font size="5" color="mediumturquoise">499P</font></b> 
+                        <br>
+                        <br>
+                        <button class="but_2" id="button2"  onclick="fut_hud(5)">
+                            <font>Добавить в корзину</font>
+                        </button>
+                    </div>
+
+                    
+                </div>
+
+            </section>
+            <section style="margin-top: 20px;" > 
+                <div class="roz">
+                    <div class="roz1">
+                        <font color="white"  id="pct_1">РОЗЫГРЫШ</font><br>
+                        <b><font color="white" size="5" >10 000 </font><font color="white" size="3" >руб.</font><br>
+                        <font color="black" >СРЕДИ ОБЛАДАТЕЛЕЙ <br> КУПОНОВ</font></b><br>
+                        <font color="white">вечером 1 июня команда розыграет приз в прямом эфире на акаунте @gbdjbgfgb.ru</font> 
+                
+                    </div>
+                    <div class="img_roz1">
+                        <img src="ime/Mag/money.jpg" width="101px" height="100px">
+                    </div>
+
+                </div>
+            </section><br>
+                
+            <section>
+                <div style="margin-left: 30px; margin-top: 30px;">
+                    <b><font size="5" >ВАШ ЗАКАЗ</font> </b>
+                </div>
+                <div style=" margin-top: 10px; margin-left: 35px; padding: 20px ;background-color: #675ba0; border-radius: 10px ;max-width: 1000px; ">
+                    
+                    <div class="korz1" id="korz">
+                        <b><font size="4"> Ваша корзина:</font></b> <b><span id="price" >0</span></b> 
+                    </div>
+                    <br>
+                    <div class="wrapper_hud1">
+                        <div class="fut_item" id="fut_i1" style="display: none;" >
+                            <img src="ime/Mag/photo2.png" width="70px" height="80px" style="border:1px solid black; border-radius: 10px;margin-left: 18px;"><br>
+                            <b><font  size="3" color="mediumturquoise" style="margin-left: 15px;">Цена: 499P</font></b>  
+                        </div>
+                        <div class="fut_item" id="fut_i2"  style="display: none;">
+                            <img src="ime/Mag/photo2.png" width="70px" height="80px" style="border:1px solid black; border-radius: 10px;margin-left: 18px;"><br>
+                            <b><font  size="3" color="mediumturquoise" style="margin-left: 15px;">Цена: 499P</font></b>  
+                        </div>
+                        <div class="fut_item" id="fut_i3" style="display: none;" >
+                            <img src="ime/Mag/photo2.png" width="70px" height="80px" style="border:1px solid black; border-radius: 10px;margin-left: 18px;"><br>
+                            <b><font  size="3" color="mediumturquoise" style="margin-left: 15px;">Цена: 499P</font></b>  
+                        </div>
+
+                        <div class="fut_item" id="fut_i4" style="display: none;">
+                            <img src="ime/Mag/photo2.png" width="70px" height="80px" style="border:1px solid black; border-radius: 10px;margin-left: 18px;"><br>
+                            <b><font  size="3" color="mediumturquoise" style="margin-left: 15px;">Цена: 499P</font></b>  
+                        </div>
+                        <div class="fut_item" id="fut_i5" style="display: none;">
+                            <img src="ime/Mag/photo2.png" width="70px" height="80px" style="border:1px solid black; border-radius: 10px;margin-left: 18px;"><br>
+                            <b><font  size="3" color="mediumturquoise" style="margin-left: 15px;">Цена: 499P</font></b>  
+                        </div>
+                        <div class="fut_item" id="fut_i6" style="display: none;">
+                            <img src="ime/Mag/photo2.png" width="70px" height="80px" style="border:1px solid black; border-radius: 10px;margin-left: 18px;"><br>
+                            <b><font  size="3" color="mediumturquoise" style="margin-left: 15px;">Цена: 499P</font></b>  
+                        </div>
+                    </div>
+                    
+                    
+                       
+                        
+                       
+                   
+                </div>
+               
+            </section>
+            
+               
+            <section class="morm" style="margin-top: 50px; display: flex; justify-content: center;" >
+                               
+                <form class="g-form" id="g-form-1" method="POST" action="" autocomplete="off" style="border-radius: 20px;">
+                    <center>
+                        <h2 style="margin-left: 30px;color: aliceblue;">Оформление заказа</h2>
+                    </center>
+                    <center>
+                    <h2 class="g-form__title g-form__title_main">На первый заказ скидка 10%</h2>   
+                    <h2 class="g-form__title g-form__title_respond"></h2>
+                    <div class="g-form__preloader"></div>
+                    <div class="g-form__inputs">
+                        <fieldset class="g-form__input-wrapper">
+                            <input class="g-form__input g-form__input_name" id="name" name="Имя" placeholder="Введите ваше имя" required>
+                        </fieldset>
+
+                        <fieldset class="g-form__input-wrapper">
+                            <input class="g-form__input g-form__input_name" id="fam" name="Фамилия" placeholder="Введите вашу фамилию" required></inputclass>
+                        </fieldset>
+            
+                        <fieldset class="g-form__input-wrapper">
+                            <input class="g-form__input g-form__input_tel" id="tel" name="Телефон" placeholder="Введите ваш телефон">
+                        </fieldset>
+            
+                        <fieldset class="g-form__input-wrapper">
+                            <input id="email" name="Email" type="email" value=""
+                            required placeholder="Введите ваш email"/>
+                        </fieldset>
+            
+            
+                        <fieldset class="g-form__input-wrapper">
+                            <textarea id="message" name="Сообщение" rows="10"
+                            placeholder="Введите модель, размер футболки и адрес для доставки. "></textarea>
+                        </fieldset>
+
+                        
+                        <fieldset class="g-form__input-wrapper g-form__input-wrapper_hidden">
+                            <label for="honeypot">Помогает бороться со спамом. Должно быть пустым!</label>
+                            <input id="honeypot" type="text" name="honeypot" value="">
+                        </fieldset>      
+                       
+                        <div class="g-form__button-wrapper">
+                            <button class="g-form__button"><b>Оформить заказ</b></button>
+                        </div>
+                    </div>
+                </center>
+                </form>  
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="g-form.js"></script>
+                     
+                </form>  
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+                <script>
+                    $(function() {
+                        $('.g-form__input_tel').mask('+7 (000) 000-00-00');
+                    });
+                </script>
+            </section> 
+             <br> 
+        <section>
+
+            
+            
+
+            <center> <span style="text-align: center;" id="sp"></span> </center><br>
+            <center> <span style="text-align: center;" id="fame"></span> </center><br>
+            <center> <span style="text-align: center;" id="em"></span> </center><br>
+            <center> <span style="text-align: center;" id="ph"></span> </center><br>
+                                    
+            <section>
+                <div>
+                    <img onclick="print_contact()" class="photo  animate__animated animate__backInRight" src="ime/tp.png" width="50px" height="50px">
+                </div>
+                <div id="present" onclick="show_modal2()" style="opacity:0;margin-top: 90px;" >
+                    <img class="photo2" src="ime/Mag/Картинка.png" width="100px" height="70px">
+                </div>
+            </section>
+            <div class="anima">
+              
+            </div>
+            <div id="myModal" class="modal">  
+                <div class="modal-content">
+                    <div class="modal-content1" style="padding: 20px; border-radius: 15px;background-color: #5c4da8;" >
+                        <span class="close" onclick="show_modal()">&times;</span>
+                       <font size="4"><p>Условия доставки</p> 
+                        <p> Можно спросить у оператора.)</p></font>
+                        <p>Emael: @gbdjbgfgb.ru</p>
+                        
+                    </div>
+                </div>          
+            </div>
+
+            <section>
+                     
+                <div  style="margin-left: 30px;">
+                    <div class="modal_klik">
+                        <div id="mModal">
+                            <button class="ys" onmouseover="grinonmos()" onclick=show_modal()><font size="5" color="#d2d1d2"> Условия доставки </font></button>    
+                        </div> 
+                    </div>
+                  
+                    <div class="stars">
+                        <img id="star_1" onmouseover="star(1)" class="star_rating" src="ime/Mag/star_2.png" width="75px" height="75px"> 
+                        <img id="star_2" onmouseover="star(2)" class="star_rating" src="ime/Mag/star_2.png" width="75px" height="75px"> 
+                        <img id="star_3" onmouseover="star(3)" class="star_rating" src="ime/Mag/star_2.png" width="75px" height="75px">
+                        <img id="star_4" onmouseover="star(4)" class="star_rating" src="ime/Mag/star_2.png" width="75px" height="75px">
+                        <img id="star_5" onmouseover="star(5)" class="star_rating" src="ime/Mag/star_2.png" width="75px" height="75px">
+                    </div>
+                    
+                    <div>
+                        <button class="oc" style="margin-left: 60px;margin-bottom: 60px;" onclick="ocaler()" id="button2.0">
+                           <b> <font size="4"  color="#d2d1d2">Оставте оценку сайту</font></b>
+                        </button>
+                    </div>
+                   
+                     
+                </div>
+                
+            </section>
+            <section>
+                <div  id="myModal2" class="modal">
+                    <div  clas="modal-content" >
+                        <div style="padding: 20px; border-radius: 15px;background-color: #5c4da8;" class="modal1"   >
+                            <span  class="close" onclick="show_modal2()">&times;</span>
+                            <b><font color=" #d2d2d3">Вам подарок</font></b><br>
+                            <b><font color=" #d2d2d3">Информация о подарке</font></b> <br>
+                            <b><font color=" #d2d2d3">Телефон поддержки: 8 999 333 11 22</font></b>    
+                        </div>                               
+                    </div>
+                    
+                </div>
+            </section>
+        </section>
+        </main>
+    </body>
+</html>
