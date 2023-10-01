@@ -11,7 +11,7 @@ function print_contakt2() {
 }
 var risolt = 0;
 function rand_tshirt() {
-    var  arr = ["ime/Mag/photo_1.png","ime/Mag/photo.png","ime/Mag/fut.JPG","ime/Mag/fut3.WEBP","ime/Mag/fut4.JPEG"];
+    var  arr = ["ime/Mag/photo_1.png","ime/Mag/photo.png","ime/Mag/fut.jpg","ime/Mag/fut3.webp","ime/Mag/fut4.jpeg"];
     var id_img = ["le","ri"];
     
     for (let i = 0; i<id_img.length;i++){
