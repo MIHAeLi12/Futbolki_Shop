@@ -13,6 +13,11 @@ header{
     
 }
 
+iframe{
+	wiht:80vw;
+	height:60vw;
+}
+
 .modal_klik{
     width: 500px;
     position: absolute;
